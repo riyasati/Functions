@@ -1,0 +1,13 @@
+package Main;
+import java.util.*;
+
+public class Functions {
+    static void calculatePower(double a, double b){
+        System.out.println(Math.pow(a,b));
+    }
+
+
+    public static void main(String[] args) {
+        calculatePower(2,3);
+    }
+}
